@@ -29,5 +29,8 @@
     }
   },
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://movoice.ai/privacy-policy"
+  "privacyPolicyUrl": "https://movoice.ai/privacy-policy",
+  "supportUrl": "https://docs.movoice.ai",
+  "termsOfServiceUrl": "https://movoice.ai/terms-of-service",
+  "documentationUrl": "https://movoice.ai/mcp"
 }
