@@ -1,0 +1,19 @@
+{
+  "name": "movoice",
+  "version": "1.0.0",
+  "description": "Create AI phone agents, place and review calls, read transcripts, and manage contacts and bookings in Movoice AI from Claude.",
+  "author": { "name": "Movoice AI", "email": "care@movoice.ai", "url": "https://movoice.ai" },
+  "homepage": "https://docs.movoice.ai",
+  "repository": "https://github.com/Movoiceai/claude-plugin",
+  "license": "MIT",
+  "keywords": ["voice", "phone", "calls", "ai-agents", "crm", "india"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Movoice API key",
+      "description": "Make one at app.movoice.ai › Developer and tick only what Claude may do (for example Agents and Calls). Starts with mv_live_ or mv_test_.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

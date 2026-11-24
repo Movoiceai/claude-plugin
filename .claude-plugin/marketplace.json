@@ -1,0 +1,8 @@
+{
+  "name": "movoice",
+  "owner": { "name": "Movoice AI", "email": "care@movoice.ai", "url": "https://movoice.ai" },
+  "description": "Movoice AI plugins for Claude: AI phone agents and calls.",
+  "plugins": [
+    { "name": "movoice", "source": "./", "description": "AI phone agents, calls, transcripts, contacts and bookings in Movoice AI." }
+  ]
+}
