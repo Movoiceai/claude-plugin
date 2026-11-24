@@ -6,7 +6,7 @@ Use Movoice AI from Claude: create AI phone agents, place and review calls, read
 
 ```
 /plugin marketplace add Movoiceai/claude-plugin
-/plugin install movoice@movoice
+/plugin install movoice-ai@movoice
 ```
 
 When asked, paste a Movoice API key. Make one at https://app.movoice.ai/admin/developer and tick only what Claude may do (for example Agents and Calls). The key is stored by Claude Code as a secret and sent only to Movoice.
